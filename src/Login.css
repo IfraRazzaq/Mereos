@@ -1,0 +1,95 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.login-form {
+    width: 50%;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-form h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.login-form p {
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form a {
+    display: block;
+    margin-bottom: 1rem;
+    color: #ff6600;
+    text-align: right;
+    text-decoration: none;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #666;
+}
+
+.google-login img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.signup-link {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.login-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image img {
+    max-width: 100%;
+    height: auto;
+}
